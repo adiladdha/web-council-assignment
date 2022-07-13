@@ -1,0 +1,74 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:18px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:512;
+    line-height:1.25em;
+    color:#666; 
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.96;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url('../vlcsnap-2022-07-06-16h02m30s557.png');
+    min-height:100%;
+}
+
+.pimg2{
+    background-image:url('../vlcsnap-2022-07-08-02h06m52s843.png');
+    min-height:100%;
+}
+
+.pimg3{
+    background-image:url('../vlcsnap-2022-07-09-23h18m14s581.png');
+    min-height:100%;
+}
+
+.pimg4{
+    background-image:url('../vlcsnap-2022-07-10-23h51m34s199.png');
+    min-height:100%;
+}
+
+.section{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.section-dark{
+    background-color: darkslategray;
+    color:mistyrose
+}
+
+.section-ok{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color:aqua;
+    font-size: 81px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
