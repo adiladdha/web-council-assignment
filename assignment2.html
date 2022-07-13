@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLE> Assignment 2 </TITLE>
+    <link rel="stylesheet" href="style assgn2.css">
+    <body>
+        <h1>Department Contact Form</h1>
+        <div class="container">          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+          <br><br>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+<br><br>
+              <label for="roll no.">Roll Number</label>
+              <input type="text" id="roll no." name="roll no." placeholder="Your roll number..">
+        <br><br>
+
+                <div class="p-4">
+                    <div>
+                        <label for="myform_phone"> Phone Number </label>
+                        <input type="text" id="myform_phone" name="phone" maxlength="10">
+                            <div id="phone_error" class="error hidden"> Please enter a valid phone number </div>
+                    </div>
+                </div>
+<br>
+
+
+              <label for="department">Department</label>
+              <select id="department" name="department">
+                <option disabled selected> Department </option>
+                <option value="mems">Metallurgy and Material Science </option>
+                <option value="mechanical">Mechanical </option>
+                <option value="cs">Computer Science </option>
+                <option value="elec">Electrical </option>
+                <option value="chemical">Chemical </option>
+                <option value="env">ESED</option>
+                <option value="civil">Civil </option>
+              </select>
+
+              <label class="checkbox" for="myCheckboxId">
+                <input class="checkbox__input" type="checkbox" name="Subsystems1" id="myCheckboxId">
+                <div class="checkbox__box"></div>
+                Subsytem 1
+              </label>
+              <br>
+
+              <label class="checkbox" for="myCheckboxId">
+                <input class="checkbox__input" type="checkbox" name="Subsystems2" id="myCheckboxId">
+                <div class="checkbox__box"></div>
+                Subsytem 2
+              </label>
+              <br>
+
+              <label class="checkbox" for="myCheckboxId">
+                <input class="checkbox__input" type="checkbox" name="Subsystems3" id="myCheckboxId">
+                <div class="checkbox__box"></div>
+                Subsytem 3
+              </label>
+              <br>
+
+              <label class="checkbox" for="myCheckboxId">
+                <input class="checkbox__input" type="checkbox" name="Subsystems4" id="myCheckboxId">
+                <div class="checkbox__box"></div>
+                Subsytem 4
+              </label>
+              <br><br>
+          
+              <label for="textarea">Write something about Yourself!</label>
+              <textarea id="textarea" name="textarea" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </div>
+    </body>
+</html>
